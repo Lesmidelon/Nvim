@@ -1,3 +1,6 @@
 [submodule "plugged/vim"]
 	path = plugged/vim
 	url = https://github.com/dracula/vim
+[submodule "plugged/nerdtree"]
+	path = plugged/nerdtree
+	url = https://github.com/preservim/nerdtree.git

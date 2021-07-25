@@ -20,6 +20,7 @@ set hlsearch
 call plug#begin()
 
 Plug 'dracula/vim' "Main theme
+Plug 'preservim/nerdtree' "File system explorer
 
 call plug#end()
 
