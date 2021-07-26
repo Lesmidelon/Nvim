@@ -4,3 +4,6 @@
 [submodule "plugged/nerdtree"]
 	path = plugged/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "plugged/vim-hexokinase"]
+	path = plugged/vim-hexokinase
+	url = https://github.com/RRethy/vim-hexokinase
