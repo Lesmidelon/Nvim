@@ -1,14 +1,29 @@
-
 "-- Set Proper Tabs --
-set tabstop=4 
 set shiftwidth=4 
-set expandtab
+set tabstop=4 
+set expandtab "Use space instead of tabs
 set softtabstop=4
 set smarttab
 
-"-- Show Linenumbers --
+"-- Show LineNumbers --
 set number
 set relativenumber 
+
+"-- Wild Menu --    
+
+" Enable auto completion menu after pressing TAB.
+set wildmenu
+" Make wildmenu behave like similar to Bash completion.
+set wildmode=list:longest
+" There are certain files that we would never want to edit with Vim.
+" Wildmenu will ignore files with these extensions.
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+
+"-- Folding --
+" set foldmethod=indent   
+" set foldnestmax=10
+" set nofoldenable
+" set foldlevel=2
 
 syntax on
 set hidden
@@ -16,6 +31,8 @@ set inccommand=split
 set incsearch
 set hlsearch
 set termguicolors
+set nocompatible
+filetype on
 
 "-- Vim Plug --
 call plug#begin()
