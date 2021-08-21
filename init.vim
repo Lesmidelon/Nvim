@@ -1,3 +1,15 @@
+"#      WilberT (Lesmidelon)
+"#      https://github.com/Lesmidelon                               
+"#                                
+"#                                
+"# 
+"#
+"# 
+"#
+"# 
+"#
+"######################################
+"
 "-- Set Proper Tabs --
 set shiftwidth=4 
 set tabstop=4 
@@ -40,6 +52,7 @@ call plug#begin()
 Plug 'dracula/vim' "Main theme
 Plug 'preservim/nerdtree' "File system explorer
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' } "Highlight color support
+Plug 'lervag/vimtex'
 
 call plug#end()
 
