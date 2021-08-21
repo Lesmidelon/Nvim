@@ -7,3 +7,6 @@
 [submodule "plugged/vim-hexokinase"]
 	path = plugged/vim-hexokinase
 	url = https://github.com/RRethy/vim-hexokinase
+[submodule "plugged/vimtex"]
+	path = plugged/vimtex
+	url = https://github.com/lervag/vimtex
